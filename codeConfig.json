@@ -15,13 +15,21 @@
             },
             {
                 "methodName": "add",
-                "parameters": ["String"],
-                "values": ["name"]
+                "parameters": [
+                    "String"
+                ],
+                "values": [
+                    "name"
+                ]
             },
             {
                 "methodName": "remove",
-                "parameters": ["String"],
-                "values": ["fileName"]
+                "parameters": [
+                    "String"
+                ],
+                "values": [
+                    "fileName"
+                ]
             },
             {
                 "methodName": "printBlobs",
@@ -34,8 +42,12 @@
         "className": "Blob",
         "constructorConfigs": [
             {
-                "parameterTypes": ["String"],
-                "values": ["pathName"]
+                "parameterTypes": [
+                    "String"
+                ],
+                "values": [
+                    "pathName"
+                ]
             }
         ],
         "methodConfigs": [
@@ -56,8 +68,12 @@
             },
             {
                 "methodName": "getSha1",
-                "parameters": ["String"],
-                "values": ["input"]
+                "parameters": [
+                    "String"
+                ],
+                "values": [
+                    "input"
+                ]
             }
         ]
     },
@@ -72,13 +88,21 @@
         "methodConfigs": [
             {
                 "methodName": "add",
-                "parameters": ["String"],
-                "values": ["type"]
+                "parameters": [
+                    "String"
+                ],
+                "values": [
+                    "type"
+                ]
             },
             {
                 "methodName": "remove",
-                "parameters": ["String"],
-                "values": ["type"]
+                "parameters": [
+                    "String"
+                ],
+                "values": [
+                    "type"
+                ]
             },
             {
                 "methodName": "save",
@@ -153,13 +177,23 @@
             },
             {
                 "methodName": "readFile",
-                "parameters": ["String", "Charset"],
-                "values": ["path", "encoding"]
+                "parameters": [
+                    "String",
+                    "Charset"
+                ],
+                "values": [
+                    "path",
+                    "encoding"
+                ]
             },
             {
                 "methodName": "addBlobs",
-                "parameters": ["Index"],
-                "values": ["name"]
+                "parameters": [
+                    "Index"
+                ],
+                "values": [
+                    "name"
+                ]
             }
         ]
     }
